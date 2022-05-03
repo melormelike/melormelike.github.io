@@ -1,0 +1,162 @@
+
+/* Google Fonts */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Montserrat:wght@300;400;500;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/*bootstrap*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css");
+
+/*components*/
+@import './typewriter.css';
+/* Utilities */
+
+body {
+  align-items: center;
+  min-height:100vh;
+  color:#3c484e;
+  font-family: Lora, Montserrat, OpenSans;
+  background-color: #fafafa;
+}
+h2 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+
+}
+h3 {
+  border-left: 5px solid rgb(83, 182, 208);
+  padding: 0 1.2em;
+  font-size: 1.3rem;
+}
+
+#hi-title {
+  font-weight: bold !important;
+  font-size: 2rem !important;
+  color:#2e363a;
+  /* color: #231c33; */
+  text-align: center;
+  padding-top: 2em;
+  letter-spacing: .25rem;
+  padding-bottom: 2em;
+}
+p {
+  display: block;
+  margin-block-start: 1.5em;
+  margin-block-end: 1.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1.1rem;
+}
+
+.card {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 20px;
+
+}
+
+.container {
+  max-width: 44rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  align-items: center;
+
+}
+
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1.1rem;
+}
+.skill-list {
+  display: list-item;
+  text-align: left;
+}
+
+.project-links a {
+  text-decoration: none;
+  color:#3c484e;
+
+}
+.project-links a:hover {
+  color:#505e65;
+}
+/* Contact */
+.footer a {
+  font-size: 1.5rem;
+  color: #505e65;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.contact a:hover {
+  color: #505e65;
+  opacity: 1;
+}
+
+.contact {
+  font-size: 1.1rem;
+  text-align: center;
+  align-items: center;
+}
+
+
+.last-word {
+  font-weight: lighter;
+  font-size: 0.8em;
+}
+
+/*
+.cards-project {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-indent: -9999px;
+  z-index: 1;
+  margin-top: 10px;
+} */
+
+@media (max-width: 540px) {
+  /* For a screen < 720px, this CSS will be read */
+
+  .card {
+    text-align: center;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  .container {
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 390px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    text-align: center;
+    overflow: hidden;
+}
+
+  .container {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+}

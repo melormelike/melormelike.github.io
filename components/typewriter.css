@@ -1,0 +1,27 @@
+HTML CSS JSResult Skip Results Iframe
+
+.caption {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:rgb(83, 182, 208);
+  /* color:#3eb0ef; */
+  z-index: 2;
+  align-items: center !important;
+
+}
+ span { font-size:20px; }
+.brand { font-weight:700;border-radius:25px; }
+ .type-cursor { color:rgb(37, 35, 35); animation:blink .4s ease infinite;opacity:0; }
+ @keyframes blink {
+  100% { opacity:1; }
+ }
+
+
+ #demo {
+   font-size: 20px !important;
+   font-weight: bolder !important;
+   /* color:#3eb0ef; */
+   color:rgb(83, 182, 208);
+ }
