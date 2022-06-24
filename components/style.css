@@ -117,8 +117,8 @@ ul {
   font-size: 0.8em;
 }
 .mini-project {
-  border-bottom: 2px solid rgb(83, 182, 208);
-  box-sizing: border-box;
+  text-decoration: underline;
+  text-decoration-color: rgb(83, 182, 208);
 
 }
 
