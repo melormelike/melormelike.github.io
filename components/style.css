@@ -21,6 +21,7 @@ body {
   font-family: Lora, Montserrat, OpenSans;
   background-color: #fafafa;
 }
+
 h2 {
   font-weight: bolder;
   font-size: 1.5rem;
@@ -60,12 +61,13 @@ p {
 
 }
 
-.container {
+.sub-container {
   max-width: 44rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
   align-items: center;
+  display: grid 1fr 1fr 1fr;
 
 }
 
@@ -114,7 +116,26 @@ ul {
   font-weight: lighter;
   font-size: 0.8em;
 }
+.mini-project {
+  border-bottom: 2px solid rgb(83, 182, 208);
+  box-sizing: border-box;
 
+}
+
+.mini-project:hover {
+  transition: background-size .3s .3s, background-position-y 0.3s 0;
+  background-size: 200% 40%;
+  background-position: 100% 80%;
+  /* position: absolute; */
+}
+
+.date {
+  color: #999;
+  text-align: center;
+  align-items: center;
+  margin-right: 5px;
+  font-size: 0.3rem !important;
+}
 /*
 .cards-project {
 
@@ -137,7 +158,7 @@ ul {
     align-items: center;
   }
 
-  .container {
+  .sub-container {
     max-width: 90vw;
     margin-left: auto;
     margin-right: auto;
@@ -151,12 +172,10 @@ ul {
     text-align: center;
     overflow: hidden;
 }
-
-  .container {
+  .sub-container {
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-
 }
