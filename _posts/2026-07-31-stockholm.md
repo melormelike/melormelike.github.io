@@ -22,6 +22,8 @@ People were walking their dogs, strolling with their babies, and spending time o
 they were having a picnic in the park. Some were simply wandering around, enjoying the winter sun
 and the strange feeling of being able to walk across a frozen lake.
 
+{% include photo.html src="/images/travel/stockholm/crowd-on-ice.jpg" caption="Everyone out on the lake, strollers and all." %}
+
 <div class="photo-row">
   {% include photo.html src="/images/travel/stockholm/frozen-boats.jpg" caption="Boats frozen in place, with footprints all around them." %}
   {% include photo.html src="/images/travel/stockholm/cracked-ice.jpg" caption="Cracked ice near the shore, and the city just across it." %}
