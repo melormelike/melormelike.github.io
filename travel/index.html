@@ -1,0 +1,40 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel log | Melike Gundogdu</title>
+    <meta name="description" content="Places I've lived and travelled.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <main class="sheet">
+      <header>
+        <p class="doc-meta">
+          <span>Travel log</span>
+          <span>Melike Gundogdu</span>
+        </p>
+
+        <a class="back-link" href="/">← Back to file</a>
+
+        <h1>Travel log</h1>
+        <p class="role">Places I've lived and wandered around.</p>
+      </header>
+
+      <section>
+        {% include trip-list.html posts=site.posts %}
+      </section>
+
+      <a class="back-link" href="/">← Back to file</a>
+
+      <footer class="colophon">
+        <p>End of log.</p>
+      </footer>
+    </main>
+  </body>
+</html>

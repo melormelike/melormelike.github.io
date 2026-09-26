@@ -1,0 +1,10 @@
+{% assign limit = include.limit | default: 100 %}
+<ol class="trips">
+  {% for post in include.posts limit: limit %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="trip-when">{{ post.when }}</span>
+      <p>{{ post.summary }}</p>
+    </li>
+  {% endfor %}
+</ol>

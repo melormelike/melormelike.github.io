@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -30,7 +32,7 @@
 
           <div>
             <h1>Melike Gundogdu</h1>
-            <p class="role">Software developer</p>
+            <p class="role">Software developer · Antalya</p>
           </div>
         </div>
 
@@ -120,6 +122,14 @@
           <li>Scuba diving</li>
         </ul>
       </section>
+
+      {% if site.posts.size > 0 %}
+        <section>
+          <h2>Travel log</h2>
+          {% include trip-list.html posts=site.posts limit=3 %}
+          <a class="project-link" href="/travel/">All trips →</a>
+        </section>
+      {% endif %}
 
       <section>
         <h2>Contact</h2>

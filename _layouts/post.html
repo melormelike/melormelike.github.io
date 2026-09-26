@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | Melike Gundogdu</title>
+    <meta name="description" content="{{ page.summary }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <main class="sheet">
+      <header>
+        <p class="doc-meta">
+          <span>Travel log</span>
+          <span>{{ page.place }}</span>
+        </p>
+
+        <a class="back-link" href="/travel/">← All trips</a>
+
+        <p class="exhibit-label">{{ page.when }}</p>
+        <h1>{{ page.title }}</h1>
+        <p class="role">{{ page.summary }}</p>
+      </header>
+
+      <article class="post-body">
+        {{ content }}
+      </article>
+
+      <a class="back-link" href="/travel/">← All trips</a>
+
+      <footer class="colophon">
+        <p>End of entry.</p>
+      </footer>
+    </main>
+  </body>
+</html>

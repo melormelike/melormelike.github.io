@@ -326,6 +326,79 @@ blockquote footer::before {
   font-weight: 400;
 }
 
+.trips {
+  margin: 0 0 var(--space-4);
+  padding: 0;
+  list-style: none;
+}
+
+.trips li {
+  padding: var(--space-3) 0;
+  border-bottom: 1px dashed var(--rule);
+}
+
+.trips a {
+  font-family: var(--font-type);
+  font-size: 22px;
+}
+
+.trip-when {
+  display: block;
+  color: var(--stamp);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.trips p {
+  margin: var(--space-1) 0 0;
+}
+
+.post-body {
+  margin-top: var(--space-5);
+}
+
+.post-body h2 {
+  margin-top: var(--space-6);
+}
+
+.post-photo {
+  margin: var(--space-5) 0;
+  padding: var(--space-2);
+  background: var(--paper-light);
+  box-shadow: 4px 5px 0 var(--paper-shadow);
+}
+
+.post-photo img {
+  width: auto;
+  max-height: min(80vh, 720px);
+  margin: 0 auto;
+}
+
+.photo-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+  gap: var(--space-4);
+  margin: var(--space-5) 0;
+}
+
+.photo-row .post-photo {
+  margin: 0;
+}
+
+.photo-row img {
+  width: 100%;
+  max-height: none;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
+.post-photo figcaption {
+  padding: var(--space-3) var(--space-2) var(--space-1);
+  color: var(--ink-faded);
+  font-size: 13px;
+}
+
 .colophon {
   margin-top: var(--space-6);
   padding-top: var(--space-3);

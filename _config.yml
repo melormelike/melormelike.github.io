@@ -1,0 +1,8 @@
+title: Melike Gundogdu
+url: https://melikegundogdu.com
+permalink: /travel/:title/
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
